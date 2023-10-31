@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header ul {
+            list-style: none;
+        }
+
+        header ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #FFD700;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #FFC500;
+        }
+
+        .about-content {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .services {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        .service-item {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+        }
+
+        .service-item h3 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .service-item p {
+            color: #777;
+            font-size: 16px;
+        }
+
+        .portfolio {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+        }
+
+        .contact {
+            background-image: url('contact-background2.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff;
+            padding: 100px 0;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+
+        form input, form textarea {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        form button {
+            background-color: #FFD700;
+            color: #333;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        form button:hover {
+            background-color: #FFC500;
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1 style="font-size: 36px; margin-bottom: 20px;">Welcome to The Newton Project</h1>
+            <p style="font-size: 18px; color: #777; margin-bottom: 40px;">Repository B</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p style="font-size: 18px; color: #777;">Discover our mission and commitment to your financial growth.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Service 1</h3>
+                <p>Description of Service 1.</p>
+            </div>
+            <div class="service-item">
+                <h3>Service 2</h3>
+                <p>Description of Service 2.</p>
+            </div>
+            <div class="service-item">
+                <h3>Service 3</h3>
+                <p>Description of Service 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <h2 style="color: #fff; font-size: 36px; margin-bottom: 20px;">Contact Us</h2>
+            <p style="color: #ccc; font-size: 18px; margin-bottom: 40px;">Ready to change your financial future? Reach out to us now.</p>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message" style="margin-bottom: 20px;"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p style="font-size: 16px;">&copy; 2023 Million Dollar Project 2</p>
+        </div>
+    </footer>
+</body>
+</html>
